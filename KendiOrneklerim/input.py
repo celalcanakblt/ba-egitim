@@ -1,0 +1,12 @@
+print("Kullanıcıdan input değeri almak")
+sayi = input("Lütfen bir sayı giriniz : ")
+print("Vermiş olduğunuz değer : ", sayi)
+
+sayi2 = int(input("Lütfen Bir sayı giriniz : "))
+print("Girmiş olduğunuz sayının 5 fazlası =", sayi2+5)
+print("Girmiş olduğunuz sayının 5 katı =", sayi2*5)
+print("Girmiş olduğunuz sayının 5 eksiği =", sayi2-5)
+floatsayi = float(input("Lütfen Kesirli bir sayı giriniz : "))
+print("Girmiş olduğunuz float sayının 5 fazlası =", floatsayi+5)
+print("Girmiş olduğunuz float sayının 5 eksiği =", floatsayi-5)
+print("Girmiş olduğunuz float sayının 5 katı =", floatsayi*5)
